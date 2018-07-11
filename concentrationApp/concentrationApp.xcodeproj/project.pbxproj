@@ -12,6 +12,7 @@
 		A97793CD20F62A070014FDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97793CB20F62A070014FDEA /* Main.storyboard */; };
 		A97793CF20F62A070014FDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97793CE20F62A070014FDEA /* Assets.xcassets */; };
 		A97793D220F62A070014FDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97793D020F62A070014FDEA /* LaunchScreen.storyboard */; };
+		A97793DB20F62DCB0014FDEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97793DA20F62DCB0014FDEA /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A97793CE20F62A070014FDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97793D120F62A070014FDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A97793D320F62A070014FDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97793DA20F62DCB0014FDEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		A97793BB20F62A070014FDEA = {
 			isa = PBXGroup;
 			children = (
+				A97793DA20F62DCB0014FDEA /* Default-568h@2x.png */,
 				A97793C620F62A070014FDEA /* concentrationApp */,
 				A97793C520F62A070014FDEA /* Products */,
 			);
@@ -54,14 +57,22 @@
 		A97793C620F62A070014FDEA /* concentrationApp */ = {
 			isa = PBXGroup;
 			children = (
-				A97793C720F62A070014FDEA /* AppDelegate.swift */,
+				A97793D920F62A460014FDEA /* Other */,
 				A97793C920F62A070014FDEA /* ViewController.swift */,
 				A97793CB20F62A070014FDEA /* Main.storyboard */,
+			);
+			path = concentrationApp;
+			sourceTree = "<group>";
+		};
+		A97793D920F62A460014FDEA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A97793C720F62A070014FDEA /* AppDelegate.swift */,
 				A97793CE20F62A070014FDEA /* Assets.xcassets */,
 				A97793D020F62A070014FDEA /* LaunchScreen.storyboard */,
 				A97793D320F62A070014FDEA /* Info.plist */,
 			);
-			path = concentrationApp;
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97793D220F62A070014FDEA /* LaunchScreen.storyboard in Resources */,
+				A97793DB20F62DCB0014FDEA /* Default-568h@2x.png in Resources */,
 				A97793CF20F62A070014FDEA /* Assets.xcassets in Resources */,
 				A97793CD20F62A070014FDEA /* Main.storyboard in Resources */,
 			);
@@ -282,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4YFM65T84;
-				INFOPLIST_FILE = concentrationApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/concentrationApp/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4YFM65T84;
-				INFOPLIST_FILE = concentrationApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/concentrationApp/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
